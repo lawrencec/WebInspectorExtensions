@@ -1,0 +1,10 @@
+{
+  "name": "Basic",
+  "version": "1.0",
+  "description": "Extends the developer tools, show relationship between background and devtools pages.",
+  "devtools_page": "pages/devtools.html",
+  "background_page": "pages/background.html",
+  "permissions":  [
+    "experimental"
+  ]
+}

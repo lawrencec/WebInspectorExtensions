@@ -1,0 +1,13 @@
+{
+  "name": "Audit Example",
+  "version": "1.0",
+  "description": "Extends the Developer Tools, adding an audit category that finds broken links on the inspected page.",
+  "background_page": "pages/background.html",
+  "devtools_page": "pages/devtools.html",
+  "permissions":  [
+    "experimental",
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ]
+}

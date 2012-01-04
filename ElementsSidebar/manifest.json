@@ -1,0 +1,9 @@
+{
+    "name": "Aria Inspector",
+    "version": "1.0",
+    "description": "Extends the Developer Tools, adding a sidebar that displays WAI-ARIA information about the inspected element.",
+    "devtools_page": "pages/devtools.html",
+    "permissions":  [
+        "experimental"
+    ]
+}

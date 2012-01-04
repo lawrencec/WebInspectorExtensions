@@ -1,0 +1,17 @@
+<html>
+<body>
+<script type="text/javascript" src="../js/sidebar-aria.js"></script>
+<script type="text/javascript">
+chrome.experimental.devtools.panels.elements.createSidebarPane(
+        'Aria',
+        function(sidebar) {
+            function getAriaInformation() {
+                sidebar.setExpression('(' + sidebarAria.toString() + ')().getAriaInformation()');
+            }
+            getAriaInformation();
+            chrome.experimental.devtools.panels.elements.onSelectionChanged.addListener(getAriaInformation);
+        }
+);
+</script>
+</body>
+</html>

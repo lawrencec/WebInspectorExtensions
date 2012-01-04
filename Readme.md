@@ -11,3 +11,7 @@ Current examples are:
 * Audit - Extends the Developer Tools, adding an audit category that finds broken links on the inspected page.
 * ElementsSidebar - Extends the Developer Tools, adding a sidebar that displays WAI-ARIA information about the inspected element.
 
+## Usage:
+
+Make sure that the 'Experimental Extensions API' is enabled in the 'chrome://flags/' page.
+Load the extensions page and load an extension by clicking on the 'Load unpacked extension' - select the extension directory to choose the extension to load e.g the ElementsSidebar directory.

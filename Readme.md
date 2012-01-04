@@ -1,6 +1,6 @@
 # WebInspectorExtensions
 
-I found the [official deocumentation and examples](http://code.google.com/chrome/extensions/experimental.html) for extending the web inspector functional but unclear. So this repo is mainly
+I found the [official documentation and examples](http://code.google.com/chrome/extensions/experimental.html) for extending the web inspector functional but unclear. So this repo is mainly
 examples found in the documentation with its filesystem refactored (for clarity) and in some cases, refactored js which might better reflect how it might be used in the wild (as opposed as just as code example).
 
 All this is my learning curve in understanding how to extend the webinspector; expect ineffiencies etc.

@@ -1,0 +1,12 @@
+{
+    "name": "PanelExample",
+    "version": "0.1",
+    "description": "Example showing how to add a penel to Web Inspector.",
+    "devtools_page": "pages/devtools.html",
+    "permissions":  [
+        "experimental",
+        "tabs",
+        "http://*/*",
+        "https://*/*"
+    ]
+}

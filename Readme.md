@@ -10,6 +10,7 @@ Current examples are:
 * Basic - Extends the developer tools, show relationship between background and devtools pages.
 * Audit - Extends the Developer Tools, adding an audit category that finds broken links on the inspected page.
 * ElementsSidebar - Extends the Developer Tools, adding a sidebar that displays WAI-ARIA information about the inspected element.
+* Panel - Example of how to add a panel to web inspector and retrieve and render information about the inspected window.
 
 ## Usage:
 
